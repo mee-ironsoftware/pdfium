@@ -33,9 +33,6 @@ jobs:
         upstream_sync_branch: main
         upstream_sync_repo: pdfium
         host_domain: pdfium.googlesource.com
-
-        # Set test_mode true to run tests instead of the true action!!
-        test_mode: true
       
     # Step 3: Display a sample message based on the sync output var 'has_new_commits'
     - name: New commits found
